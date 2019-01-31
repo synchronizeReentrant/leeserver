@@ -1,0 +1,13 @@
++Maven阿里云镜像的加入，在setting.xml的<mirrors>节点中配置
+    <mirror>
+      <id>alimaven</id>
+      <name>aliyun maven</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
++logback的引入
+    logback-access-1.1.2.jar
+    logback-classic-1.1.2.jar
+    logback-core-1.1.2.jar
+    slf4j-api-1.7.25.jar
+
